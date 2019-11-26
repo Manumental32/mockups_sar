@@ -1,0 +1,191 @@
+<html><head>
+    <meta name="keywords" content="riego, automático">
+    <meta name="description" content="Riego inteligente">
+    <title>Proyecto Final</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Riego inteligente<br></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="planesRiego.html">Planes de riego</a>
+            </li>
+            <li>
+              <a href="pronostico.html">Pronostico</a>
+            </li>
+            <li>
+              <a href="datosDeCultivo.html">Datos de cultivo</a>
+            </li>
+            <li>
+              <a href="Usuarios.html">Usuarios</a>
+            </li>
+            <li>
+              <a href="nosotros.html">Acerca de</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nair<i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="login.html">Cerrar sesión</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Planes de riego
+              <br>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form role="form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="search" class="form-control" placeholder="Buscar">
+                  <span class="input-group-btn">
+                    <a class="btn btn-success" type="submit">Buscar</a>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table table-bordered table-hover table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Plan de riego</th>
+                  <th>Creador</th>
+                  <th>Detalles</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Plan de riego1</td>
+                  <td>Otto</td>
+                  <td>Lorem ipsu</td>
+                  <td>
+                    <a class="btn btn-success" type="submit" href="verPlanDeRiego.html">Ver</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Plan de riego2</td>
+                  <td>Thornton</td>
+                  <td>Lorem ipsu</td>
+                  <td>
+                    <a class="btn btn-success" type="submit" href="verPlanDeRiego.html">Ver</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Plan de riego3</td>
+                  <td>the Bird</td>
+                  <td>Lorem ipsu</td>
+                  <td>
+                    <a class="btn btn-success" type="submit" href="verPlanDeRiego.html">Ver</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" draggable="true">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <ul class="pagination">
+              <li>
+                <a href="#">Prev</a>
+              </li>
+              <li>
+                <a href="#">1</a>
+              </li>
+              <li>
+                <a href="#">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+              <li>
+                <a href="#">5</a>
+              </li>
+              <li>
+                <a href="#">Next</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="section section-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Footer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              <br>Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-info text-right">
+              <br>
+              <br>
+            </p>
+            <div class="row">
+              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 hidden-xs text-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+</body></html>
